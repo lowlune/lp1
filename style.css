@@ -48,11 +48,11 @@ a {
 
 }
 
-
-
-.right img {
+.right img{
     width: 400px;
 }
+
+
 
 h1 {
     font-size: 48px;
@@ -65,11 +65,10 @@ h1 {
     display: block;
     text-align: center;
     margin-top: 10px;
+    border-radius: 20px;
 }
 
-.left{
-    width: 400px;
-}
+
 
 .section2 {
     display: flex;
@@ -80,9 +79,8 @@ h1 {
 
 }
 
-.section2 h1 {
-    margin: 50px auto;
-}
+.section2 h1 {margin-top: 30px;
+text-align: center;}
 
 .section2 ul {
     display: flex;
@@ -92,8 +90,8 @@ h1 {
 
 .section2 a {
     margin-bottom: 10px;
-    padding: 100px;
-    border: 5px solid lightblue;
+    padding: 50px;
+    border: 3px solid lightblue;
     border-radius: 20px;
     display: block;
 }
