@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.header {
+    padding: 20px 200px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+
+.header img {
+    height: 25px;
+}
+
+.section {
+    padding: 100px 200px;
+    height: 500px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: rgb(204, 204, 204);
+
+}
+
+
+
+.right img {
+    width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.section a {
+    background-color: lightblue;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.left{
+    width: 400px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 200px;
+    margin-bottom: 100px;
+
+}
+
+.section2 h1 {
+    margin: 50px auto;
+}
+
+.section2 ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section2 a {
+    margin-bottom: 10px;
+    padding: 100px;
+    border: 5px solid lightblue;
+    border-radius: 20px;
+    display: block;
+}
+
+
+.sec{
+    padding: 200px;
+    background-color: rgb(206, 206, 206);
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.sec p{
+    width: 500px;
+
+}
+
+
+.secc {
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    align-items: center;
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 500px;
+    padding: 50px;
+    color: black;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+
+.secc a{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
